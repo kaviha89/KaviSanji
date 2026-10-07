@@ -7,14 +7,14 @@
 */
 const GUESTS = {
   "001": { name: "Kamal", table: "01" },
-  "002": { name: "Guest 002", table: "01" },
-  "003": { name: "Guest 003", table: "01" },
+  "002": { name: "Nimal", table: "01" },
+  "003": { name: "Sunil", table: "01" },
   "004": { name: "Guest 004", table: "01" },
   "005": { name: "Guest 005", table: "01" },
   "006": { name: "Guest 006", table: "01" },
   "007": { name: "Guest 007", table: "01" },
   "008": { name: "Guest 008", table: "01" },
-  "009": { name: "Guest 009", table: "02" },
+  "009": { name: "Pathum", table: "02" },
   "010": { name: "Guest 010", table: "02" },
   "011": { name: "Guest 011", table: "02" },
   "012": { name: "Guest 012", table: "02" },
