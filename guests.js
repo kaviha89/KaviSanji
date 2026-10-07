@@ -6,7 +6,7 @@
   "001": { name: "Nimal Perera", table: "08" }
 */
 const GUESTS = {
-  "001": { name: "Guest 001", table: "01" },
+  "001": { name: "Kamal", table: "01" },
   "002": { name: "Guest 002", table: "01" },
   "003": { name: "Guest 003", table: "01" },
   "004": { name: "Guest 004", table: "01" },
