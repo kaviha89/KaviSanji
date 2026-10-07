@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Invitation Link Generator</title>
+<style>body{font-family:Arial,sans-serif;background:#f7f1e8;color:#31463a;padding:24px;max-width:900px;margin:auto}input{padding:12px;width:100%;max-width:500px;margin:5px 0 15px}button{padding:12px 18px;border:0;border-radius:8px;background:#3f5a49;color:#fff}table{width:100%;border-collapse:collapse;margin-top:20px}td,th{padding:10px;border-bottom:1px solid #ddd;text-align:left}a{color:#3f5a49}</style></head>
+<body><h1>Wedding Invitation Link Generator</h1>
+<p>Enter the published base URL, then use the generated links for WhatsApp.</p>
+<input id="base" placeholder="https://your-domain.com/">
+<button onclick="generate()">Generate links</button>
+<table><thead><tr><th>Guest</th><th>Table</th><th>Link</th><th>WhatsApp</th></tr></thead><tbody id="rows"></tbody></table>
+<script src="guests.js"></script><script>
+function generate(){
+ const base=document.getElementById('base').value.trim().replace(/\/?$/,'/');
+ const rows=document.getElementById('rows'); rows.innerHTML='';
+ Object.entries(GUESTS).forEach(([id,g])=>{
+  const url=base+'?guest='+id;
+  const msg=encodeURIComponent(`Dear ${g.name},\n\nWe would love to celebrate our special day with you. 💍\n\nYour wedding invitation: ${url}`);
+  rows.insertAdjacentHTML('beforeend',`<tr><td>${g.name}</td><td>${g.table}</td><td><a target="_blank" href="${url}">Open</a></td><td><a target="_blank" href="https://wa.me/?text=${msg}">Share</a></td></tr>`);
+ });
+}
+</script></body></html>
