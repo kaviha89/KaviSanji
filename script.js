@@ -5,7 +5,7 @@ const guest = GUESTS[guestId] || {name:"Dear Guest", table:"—"};
 document.getElementById("guestName").textContent = guest.name;
 document.getElementById("tableNumber").textContent = guest.table === "—" ? "Please contact us" : `Table ${guest.table}`;
 
-const eventDate = new Date("2027-01-20T18:00:00+05:30").getTime();
+const eventDate = new Date("2027-01-20T09:00:00+05:30").getTime();
 function updateCountdown(){
   const diff = eventDate - Date.now();
   if(diff <= 0){
@@ -26,7 +26,7 @@ updateCountdown(); setInterval(updateCountdown,1000);
 const cal = new URL("https://calendar.google.com/calendar/render");
 cal.searchParams.set("action","TEMPLATE");
 cal.searchParams.set("text","Wedding of Kavidu & Sanji");
-cal.searchParams.set("dates","20270120T123000Z/20270120T160000Z");
+cal.searchParams.set("dates", "20270120T033000Z/20270120T093000Z");
 cal.searchParams.set("details","Wedding celebration of Kavidu & Sanji.");
 cal.searchParams.set("location","Saffron Beach Hotel, Sri Wickrama Road, Wadduwa, Sri Lanka");
 document.getElementById("calendarBtn").href = cal.toString();
