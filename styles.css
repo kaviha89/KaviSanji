@@ -1,1 +1,185 @@
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f7f1e8;color:#31463a;font-family:"DM Sans",sans-serif;font-size:16px}.section{padding:76px 22px;text-align:center;max-width:760px;margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:.22em;font-size:10px;color:#9a7558;font-weight:600;margin:0 0 14px}.script{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:24px;color:#b77c88;margin:0}.hero{height:100svh;min-height:680px;position:relative;display:flex;align-items:flex-end;justify-content:center;overflow:hidden;background:#d8cec0}.hero-photo,.hero-overlay{position:absolute;inset:0}.hero-photo{background:linear-gradient(145deg,#e8ddd1,#d1c4b6)}.hero-photo img,.photo-placeholder img{width:100%;height:100%;object-fit:cover;display:block}.hero-overlay{background:linear-gradient(to bottom,rgba(34,45,39,.12),rgba(34,45,39,.68) 88%)}.photo-placeholder{display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}.photo-note{font-size:12px;line-height:1.7;letter-spacing:.04em;color:#7d766e;text-align:center}.photo-note small{font-size:10px;color:#a18e7e}.hero .photo-note{color:#fff}.hero .photo-note small{color:#eee}.hero-content{position:relative;z-index:2;color:#fff;text-align:center;padding:0 22px 56px;width:100%}.hero-content .eyebrow{color:#f9eadc}.hero h1,.closing h2{font-family:"Cormorant Garamond",serif;font-size:clamp(58px,16vw,105px);line-height:.85;font-weight:500;margin:10px 0 18px;letter-spacing:-.035em}.hero h1 span,.closing h2 span{color:#e9b9c0;font-weight:400}.hero-sub{font-family:"Cormorant Garamond",serif;font-size:22px;margin:0 0 22px}.date-line{display:flex;justify-content:center;align-items:center;gap:14px;font-family:"Cormorant Garamond",serif;font-size:22px}.date-line i{width:5px;height:5px;border-radius:50%;background:#e4c59e}.enter-btn,.primary-btn,.secondary-btn{border:0;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:13px 22px;border-radius:999px;font:600 12px "DM Sans",sans-serif;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}.enter-btn{margin-top:28px;background:#f8eee2;color:#425348}.primary-btn{background:#3f5a49;color:#fff}.secondary-btn{background:transparent;color:#3f5a49;border:1px solid #9aab9e}.welcome h2,.details h2,.venue h2,.schedule h2,.photo-caption h2{font-family:"Cormorant Garamond",serif;font-size:50px;line-height:1;margin:0 0 18px;font-weight:500;color:#3b5144}.welcome{padding-top:92px}.ornament{color:#c9a26d;font-size:22px;margin-bottom:25px}.guest-message{max-width:500px;margin:0 auto 28px;line-height:1.8;color:#69736c}.personal-card{border:1px solid #d9cbbd;background:rgba(255,255,255,.42);padding:20px;border-radius:18px;max-width:330px;margin:auto;box-shadow:0 8px 30px rgba(63,54,43,.05)}.personal-card span{display:block;text-transform:uppercase;letter-spacing:.18em;font-size:9px;color:#9a7558;margin-bottom:7px}.personal-card strong{font-family:"Cormorant Garamond",serif;font-size:35px;font-weight:600;color:#425348}.details{background:#eef1e9;max-width:none}.detail-grid{display:grid;grid-template-columns:repeat(3,1fr);max-width:720px;margin:35px auto 0;gap:10px}.detail-grid article{padding:18px 8px}.detail-grid .icon{display:block;font-size:26px;color:#b77c88;margin-bottom:12px}.detail-grid small{font-size:9px;letter-spacing:.16em;color:#9a7558;display:block;margin-bottom:10px}.detail-grid b{font:500 18px/1.25 "Cormorant Garamond",serif}.photo-story{padding:0 0 76px}.wide-photo{height:70vh;min-height:440px;background:#ddd1c5}.photo-caption{padding:52px 22px}.photo-caption h2{margin:0}.photo-grid{display:grid;grid-template-columns:1fr 1fr;gap:5px;padding:0 5px}.photo-grid .photo-placeholder{height:300px;background:#ded3c8}.tall-photo{height:560px;margin-top:5px;background:#d5c9bd}.venue p:not(.eyebrow){color:#69736c;line-height:1.6}.map-card{margin:28px auto 20px;max-width:620px;height:220px;border-radius:22px;overflow:hidden;border:1px solid #d6c8b9;background:#dbe2d7}.map-pattern{height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px;background:linear-gradient(25deg,transparent 48%,rgba(255,255,255,.7) 49%,rgba(255,255,255,.7) 52%,transparent 53%),linear-gradient(90deg,transparent 48%,rgba(255,255,255,.5) 49%,rgba(255,255,255,.5) 51%,transparent 52%),#d8e0d4;color:#667467}.map-pattern span{font-size:11px;letter-spacing:.3em}.map-pattern b{font-size:35px;color:#b77c88}.button-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}.schedule{background:#f0e7dc;max-width:none}.countdown{display:flex;justify-content:center;gap:8px;margin:30px 0;flex-wrap:wrap}.countdown div{min-width:74px;padding:14px 7px;background:rgba(255,255,255,.55);border:1px solid #ded0c1;border-radius:14px}.countdown strong{display:block;font:600 30px "Cormorant Garamond",serif}.countdown span{font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:#927764}.calendar-btn{display:inline-flex}.closing{padding:0;max-width:none;position:relative;background:#3f5145;color:#fff;min-height:650px;display:flex;align-items:flex-end}.closing-photo{position:absolute;inset:0;background:#69776e}.closing-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 25%,rgba(31,44,37,.88) 92%)}.closing-content{position:relative;z-index:2;width:100%;padding:80px 22px 55px}.closing h2{font-size:62px;margin:12px 0;color:#fff}.closing-content>p:last-of-type{letter-spacing:.3em;font-size:11px;color:#e7d6c0}.top-link{display:inline-block;margin-top:24px;color:#f7eadb;text-decoration:none;font-size:11px;text-transform:uppercase;letter-spacing:.15em}footer{text-align:center;padding:24px;background:#31463a;color:#dce2da;font-size:9px;letter-spacing:.12em;text-transform:uppercase}.petals{position:fixed;z-index:10;pointer-events:none;top:0;left:0;right:0;height:0}.petals:before,.petals:after{content:"✦";position:absolute;top:15vh;color:rgba(183,124,136,.25);font-size:18px}.petals:before{left:7%}.petals:after{right:9%;top:40vh}@media(min-width:700px){.hero-content{padding-bottom:70px}.photo-grid .photo-placeholder{height:430px}.wide-photo{height:80vh}.section{padding-top:100px;padding-bottom:100px}}
+/* =========================================================
+   KAVIDU & SANJI — HERO PHOTO UPDATE
+   ========================================================= */
+
+.hero {
+    min-height: 100svh;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    padding: 30px 20px;
+
+    overflow: hidden;
+
+    /* Your hero photo */
+    background-image:
+        linear-gradient(
+            rgba(40, 32, 30, 0.32),
+            rgba(40, 32, 30, 0.32)
+        ),
+        url("assets/photos/hero.jpg");
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* Elegant darker overlay for text readability */
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0.12) 0%,
+            rgba(0, 0, 0, 0.05) 45%,
+            rgba(0, 0, 0, 0.28) 100%
+        );
+
+    z-index: 0;
+}
+
+/* Remove the old decorative symbols */
+.hero::after {
+    display: none;
+}
+
+/* Main hero content */
+.hero .frame {
+    position: relative;
+    z-index: 2;
+
+    width: min(680px, 92%);
+
+    margin: 0 auto;
+    padding: 45px 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    /* Transparent elegant glass effect */
+    background: rgba(255, 253, 249, 0.10);
+
+    border: 1px solid rgba(255, 255, 255, 0.70);
+
+    outline: 1px solid rgba(255, 255, 255, 0.30);
+    outline-offset: 7px;
+
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+/* Small heading */
+.hero .kicker {
+    color: #ffffff;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.45);
+}
+
+/* Couple names */
+.hero .names {
+    color: #ffffff;
+
+    margin: 18px 0;
+
+    text-align: center;
+
+    text-shadow:
+        0 3px 15px rgba(0,0,0,0.45);
+}
+
+/* Ampersand */
+.hero .amp {
+    color: #f1d49a;
+}
+
+/* Invitation sentence */
+.hero .intro {
+    color: #ffffff;
+
+    text-shadow:
+        0 2px 10px rgba(0,0,0,0.45);
+}
+
+/* Date */
+.hero .date {
+    color: #ffffff;
+
+    text-shadow:
+        0 2px 10px rgba(0,0,0,0.45);
+}
+
+/* Open invitation button */
+.hero .btn {
+    color: #ffffff;
+
+    border-color: rgba(255,255,255,0.85);
+
+    background: rgba(255,255,255,0.10);
+
+    box-shadow:
+        0 4px 15px rgba(0,0,0,0.15);
+}
+
+.hero .btn:hover {
+    background: rgba(255,255,255,0.25);
+    color: #ffffff;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+    .hero {
+        min-height: 100svh;
+
+        padding: 24px 16px;
+
+        background-position: center center;
+    }
+
+    .hero .frame {
+        width: 90%;
+
+        padding: 38px 18px;
+
+        outline-offset: 5px;
+    }
+
+    .hero .names {
+        font-size: clamp(42px, 13vw, 64px);
+
+        line-height: 1.05;
+
+        margin: 16px 0;
+    }
+
+    .hero .intro {
+        font-size: 17px;
+
+        max-width: 340px;
+    }
+
+    .hero .date {
+        font-size: 11px;
+
+        letter-spacing: 0.12em;
+    }
+
+    .hero .btn {
+        margin-top: 8px;
+    }
+}
